@@ -2,6 +2,7 @@
 #include "ui_widget.h"
 #include <QLabel>
 #include <QString>
+#include <cstdio>
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),

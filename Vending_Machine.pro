@@ -33,6 +33,7 @@ HEADERS += \
 
 FORMS += \
         widget.ui
+QT += gui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

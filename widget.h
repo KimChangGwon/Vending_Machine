@@ -2,6 +2,8 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <iostream>
+using namespace std;
 
 namespace Ui {
 class Widget;
@@ -12,7 +14,7 @@ class Widget : public QWidget
     Q_OBJECT
 
 public:
-    explicit Widget(QWidget *parent = nullptr);
+    explicit Widget(QWidget *parent = NULL);
     int money_;
     ~Widget();
     void setControler(void);

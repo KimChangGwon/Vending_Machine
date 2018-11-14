@@ -1,4 +1,4 @@
-You can make a 'Makefile', stepping into instructions below
+You can make a 'Makefile', compiling files and resulting in executable file, stepping into instructions below
 
 qmake
 
